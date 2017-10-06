@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Bagger - The Grocery Deal Finder</title>
+    <link href=
+        "https://fonts.googleapis.com/css?family=Comfortaa|Anonymous+Pro" 
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="scripts/test.js"></script>
+</head>
+<body style="background-color:#F9F0EA">
+    <h1 class="header">Bagger</h1>
+    <hr width="60%" color="3aa34a">
+
+    <p>Enter your zipcode to load sales in your area.</p>
+    <form id="zipField" method="get" action="http://localhost:5000/input">
+        <input type="text" name="zipcode">
+        <p>Now enter an <a href="https://www.allrecipes.com">allrecipes</a> link to import ingredients from.</p>
+        <input type="text" name="recipe_link">
+        <input type="submit" value="Enter">
+    </form>
+
+    <p>Alternatively, enter your ingredients line by line.</P><br>
+
+    <p>TODO Insert text area here or one text box that when entered into a new text
+    box appears below?</p>
+
+    <p>Click below to figure out where you should shop!</p>
+    <button type="button">Compare</button>
+</body>
+</html>
